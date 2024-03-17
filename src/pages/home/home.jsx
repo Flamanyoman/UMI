@@ -278,7 +278,7 @@ const Home = () => {
             <Paragraph type='two' text={description} />
           </div>
 
-          <div className='flex items-center justify-between gap-x-6'>
+          <div className='flex items-center justify-between gap-x-6 scale-[.3]'>
             <Icons width='fifty' src={CirclePurple} />
 
             <Icons width='fifty' src={CircleBlank} />
