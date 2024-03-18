@@ -9,7 +9,7 @@ import Logo from '../assets/images/logo.png';
 
 const Navbar = () => {
   return (
-    <header className='flex items-center justify-between'>
+    <header className='flex items-center justify-between max-w-[1200px] mx-auto'>
       <div className='flex items-center justify-between'>
         <Icons width='hundred' src={Logo} />
 
@@ -24,11 +24,6 @@ const Navbar = () => {
       </div>
 
       <div className='min-w-[250px] flex items-center justify-between'>
-        <span className='flex items-center'>
-          <img src={Daytime} alt='' className='w-[20px] h-[20px] mr-[10px]' />
-          Day
-        </span>
-
         <Buttons type='outlined' name='Connect' />
         <span>
           <img src={Line1} alt='line' className='w-[30px]' />
