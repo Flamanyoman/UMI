@@ -5,7 +5,7 @@ import Buttons from '../components/ui/buttons';
 
 const Footer = () => {
   return (
-    <footer className='flex w-full h-[350px]'>
+    <footer className='flex h-[350px] max-w-[1200px] mx-auto'>
       <div className='w-[40%] flex-col gap-y-[20px] flex'>
         <h3 className='font-bold text-[22px]'>
           Farmart - Your Online Food and Grocery

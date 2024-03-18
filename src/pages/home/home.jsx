@@ -54,7 +54,7 @@ const Home = () => {
           <Navbar />
         </section>
 
-        <section className='h-screen w-full flex hero'>
+        <section className='min-h-[600px] max-w-[1200px] mx-auto flex hero'>
           <div className='w-[50%] flex flex-col justify-around'>
             <span className='flex flex-col items-start justify-between h-[60%]'>
               <Heading1 text='Next Generation' className='mt-[30px]' />
@@ -112,7 +112,7 @@ const Home = () => {
           </div>
         </section>
 
-        <section className='h-screen w-full flex'>
+        <section className='min-h-[600px] max-w-[1200px] mx-auto flex'>
           <div className='w-1/2 relative flex items-center justify-center'>
             <span className='absolute top-2 left-5'>
               <Buttons type='outlined' name='About us' />
@@ -133,7 +133,7 @@ const Home = () => {
           </div>
         </section>
 
-        <section className='h-screen w-full'>
+        <section className='min-h-[600px] max-w-[1200px] mx-auto'>
           <div>
             <Heading2 text='Our Speciality' />
             <img
@@ -150,7 +150,7 @@ const Home = () => {
           </span>
         </section>
 
-        <section className='h-screen w-full relative'>
+        <section className='min-h-[600px] max-w-[1200px] mx-auto relative'>
           <span className='absolute top-[100px] left-[105px]'>
             <Icons width='fifty' src={RobortLeft} />
           </span>
@@ -177,7 +177,7 @@ const Home = () => {
           </span>
         </section>
 
-        <section className='h-screen w-full relative'>
+        <section className='min-h-[600px] max-w-[1200px] mx-auto relative'>
           <span className='absolute top-[100px] left-[88%]'>
             <Icons width='fifty' src={RobortLeft} />
           </span>
@@ -200,7 +200,7 @@ const Home = () => {
           <SquareGrid num={10} data={cartegoryDetails} />
         </section>
 
-        <section className='min-h-[110vh] w-full flex relative'>
+        <section className='min-h-[690px] max-w-[1200px] mx-auto flex relative'>
           <div className='w-1/2 relative'>
             <span className='absolute top-[-30px] scale-75'>
               <Heading2 text='TOKENOMICS' />
@@ -264,7 +264,7 @@ const Home = () => {
           </span>
         </section>
 
-        <section className='h-screen w-full flex flex-col items-center justify-between'>
+        <section className='min-h-[600px] max-w-[1200px] mx-auto flex flex-col items-center justify-between'>
           <div>
             <Heading2 text='Our Roadmap' />
             <img
@@ -289,7 +289,7 @@ const Home = () => {
           </div>
         </section>
 
-        <section className='h-screen w-full flex relative'>
+        <section className='min-h-[600px] max-w-[1200px] mx-auto flex relative'>
           <div className='w-1/2'>
             <div>
               <Heading2 text='Unimart Ecosystem' />
@@ -314,7 +314,7 @@ const Home = () => {
           </span>
         </section>
 
-        <section className='h-screen w-full flex items-start'>
+        <section className='min-h-[600px] max-w-[1200px] mx-auto flex items-start'>
           <div className='w-[40%] scale-110'>
             <div className='w-[200px] flex gap-y-[40px] flex-col'>
               <Heading3 text='Welcome to SOLSEA' />
